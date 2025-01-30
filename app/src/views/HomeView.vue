@@ -1,9 +1,11 @@
+<template>
+  <CardContainer />
+</template>
+
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import CardContainer from '@/components/CardContainer.vue';
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style scoped>
+
+</style>
