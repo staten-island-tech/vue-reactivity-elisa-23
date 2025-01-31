@@ -11,15 +11,12 @@
     <p>Cart</p>
   </button>
   </RouterLink>
-  <div class="bg-white absolute top-[5%] right-[38%] h-[15rem] w-[7.5rem] rounded-md shadow-md">
-    
-  </div>
-  <div class="absolute w-[37rem] h-[46rem] rounded-[2rem] border-yellow-500 bg-white border-8 right-10 top-10 p-6">
-    <div class="self-center h-2 w-{20rem} bg-yellow-500 mt-2"></div>
+  <div class="absolute w-[37%] h-[90%] rounded-[2rem] border-yellow-500 bg-white border-8 right-10 top-10 p-6">
+    <div class="self-center h-2 bg-yellow-500 mt-2"></div>
     <div class="self-center h-14">
       <img src="/biyoo-logo.png" alt="image of biyoo eating a bun" class="h-13 w-14 absolute top-11.5 left-8">
     </div>
-    <div class="self-center h-2 w-{20rem} bg-yellow-500 mt-2"></div>
+    <div class="self-center h-2 bg-yellow-500 mt-2"></div>
   </div>
   <RouterView></RouterView>
 </template>
