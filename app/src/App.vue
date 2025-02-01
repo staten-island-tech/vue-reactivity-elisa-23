@@ -18,11 +18,14 @@
     </div>
     <div class="self-center h-2 bg-yellow-500 mt-2"></div>
   </div>
+  <img src="/tray.png" alt="a wooden tray with handles" class="h-[45rem] absolute left-[4rem] bottom-[0.2rem]">
+  <TrayContainer />
   <RouterView></RouterView>
 </template>
 
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
+import TrayContainer from './components/TrayContainer.vue';
 
 
 </script>

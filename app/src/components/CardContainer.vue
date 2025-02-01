@@ -11,6 +11,7 @@
 <script setup>
 import Card from './CardProps.vue';
 const cards = [{img: "url", description: "hi", name: "table" }, {img: "url", description: "hi", name: "table" }, {img: "url", description: "hi", name: "table" }, {img: "url", description: "hi", name: "table" }];
+let inCart = [];
 </script>
 
 <style scoped>
