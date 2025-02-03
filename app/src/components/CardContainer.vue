@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute w-[37%] h-[90%] right-10 top-10 p-6">
+  <div class="absolute w-[37rem] h-[49rem] right-10 top-10 p-6">
     <div class="absolute grid grid-cols-3 grid-rows-3 w-[88%] h-[30rem] top-[18%] left-[6%] place-items-center">
       <Card v-for="card in cards" :key="card.name" :card="card"></Card>
     </div>
@@ -10,8 +10,12 @@
 
 <script setup>
 import Card from './CardProps.vue';
-const cards = [{img: "url", description: "hi", name: "table" }, {img: "url", description: "hi", name: "table" }, {img: "url", description: "hi", name: "table" }, {img: "url", description: "hi", name: "table" }];
+const cards = [{img: "plushies/white-rilakkuma.png", description: "a white rilakkuma plushie", name: "White Rilakkuma" }, 
+                {img: "plushies/pink-bunny.png", description: "a pink bunny plushie", name: "Pink Bunny" }, 
+                {img: "plushies/white-bunny.png", description: "a white bunny plushie", name: "White Bunny" }, 
+                {img: "plushies/strawberry-my-melody.png", description: "a strawberry my melody plushie", name: "Strawberry My Melody" }];
 let inCart = [];
+
 </script>
 
 <style scoped>

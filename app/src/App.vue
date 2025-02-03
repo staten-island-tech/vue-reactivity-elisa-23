@@ -11,20 +11,18 @@
     <p>Cart</p>
   </button>
   </RouterLink>
-  <div class="absolute w-[37%] h-[90%] rounded-[2rem] border-yellow-500 bg-white border-8 right-10 top-10 p-6">
+  <div class="absolute w-[37rem] h-[49rem] rounded-[2rem] border-yellow-500 bg-white border-8 right-10 top-10 p-6">
     <div class="self-center h-2 bg-yellow-500 mt-2"></div>
     <div class="self-center h-14">
       <img src="/biyoo-logo.png" alt="image of biyoo eating a bun" class="h-13 w-14 absolute top-11.5 left-8">
     </div>
     <div class="self-center h-2 bg-yellow-500 mt-2"></div>
   </div>
-  <TrayContainer />
   <RouterView></RouterView>
 </template>
 
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
-import TrayContainer from './components/TrayContainer.vue';
 
 
 </script>
