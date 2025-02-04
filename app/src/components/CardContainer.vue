@@ -10,7 +10,6 @@
 </template>
 
 <script setup>
-import DisplayContainer from '@/components/DisplayContainer.vue';
 import Card from './CardProps.vue';
 import { cards } from '@/plush.js';
 
