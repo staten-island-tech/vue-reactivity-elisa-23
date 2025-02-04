@@ -6,15 +6,13 @@
     <button class="absolute bottom-[10%] left-[35%] rounded-full hover:bg-amber-200 active:bg-amber-400 h-8 w-8 font-bold font-mono text-yellow-700"><</button>
     <button class="absolute bottom-[10%] right-[35%] rounded-full hover:bg-amber-200 active:bg-amber-400 h-8 w-8 font-bold font-mono text-yellow-700">></button>
   </div>
+  
 </template>
 
 <script setup>
+import DisplayContainer from '@/components/DisplayContainer.vue';
 import Card from './CardProps.vue';
-const cards = [{img: "plushies/white-rilakkuma.png", description: "a white rilakkuma plushie", name: "White Rilakkuma" }, 
-                {img: "plushies/pink-bunny.png", description: "a pink bunny plushie", name: "Pink Bunny" }, 
-                {img: "plushies/white-bunny.png", description: "a white bunny plushie", name: "White Bunny" }, 
-                {img: "plushies/strawberry-my-melody.png", description: "a strawberry my melody plushie", name: "Strawberry My Melody" }];
-let inCart = [];
+import { cards } from '@/plush.js';
 
 </script>
 
