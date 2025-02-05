@@ -7,7 +7,8 @@
 
 <script setup>
 import BuyButton from './BuyButtonProps.vue';
-import { selectedObj } from '@/variables.js';
+import { selected, selectedObj } from '@/variables.js';
+
 </script>
 
 <style scoped>
