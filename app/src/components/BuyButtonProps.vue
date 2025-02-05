@@ -22,7 +22,9 @@ watch (selected, () => {
 function resetButton () {   
     cards.forEach((card) => {
         if (card.id === selected.value) {
-            if (card in cart.items) {
+            console.log(card);
+            console.log(cart);
+            if (cart.items.includes(card)) {
                 message.value = "Added to Cart";
                 buttonClass.value = "bg-yellow-500 w-[30rem] h-[7rem] absolute bottom-0 font-bold text-[3rem] text-white";
             } else {
@@ -51,7 +53,6 @@ function toCart() {
             if (card.id === selected.value) {
                     card.stock ++;
                     cart.items.splice(cart.items.indexOf(card), 1)
-                    cart.items = newCart;
                     console.log(cart.items);
                     console.log(card);
             }

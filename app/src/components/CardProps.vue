@@ -24,6 +24,7 @@ function selectProduct(id) {
             selectedObj.name = card.name;
             selectedObj.id = card.id;
             selectedObj.price = card.price;
+            selectedObj.stock = card.stock;
             console.log(selectedObj);
         }
     });
