@@ -19,7 +19,11 @@ function selectProduct(id) {
     console.log(selected.value);
     cards.forEach(card => {
         if (card.id === selected.value) {
-            selectedObj.value = card;
+            selectedObj.img = card.img;
+            selectedObj.description = card.description;
+            selectedObj.name = card.name;
+            selectedObj.id = card.id;
+            selectedObj.price = card.price;
             console.log(selectedObj);
         }
     });

@@ -2,6 +2,8 @@ import { ref, reactive } from 'vue';
 
 
 let selected = ref("");
-let selectedObj = reactive({});
+let selectedObj = reactive({ img: null, description: "", name: "", id: "", price: null });
 
-export { selected, selectedObj }
+let cart = reactive([]);
+
+export { selected, selectedObj, cart }

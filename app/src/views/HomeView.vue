@@ -6,7 +6,7 @@
 <script setup>
 import CardContainer from '@/components/CardContainer.vue';
 import DisplayContainer from '@/components/DisplayContainer.vue';
-import { selectedObj } from '@/variables';
+import { selectedObj } from '@/variables.js';
 </script>
 
 <style scoped>
