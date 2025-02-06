@@ -1,7 +1,7 @@
 <template>
     <div v-if="cart" class="absolute w-[37rem] h-[49rem] right-10 top-10 p-6 flex items-center justify-center" >
         <div class="bg-black w-[90%] h-[50%] text-center font-stretch-expanded text-yellow-600 p-8 receipt overflow-y-scroll scroll-smooth">
-            
+            <p></p>
         </div>
     </div>
 </template>
