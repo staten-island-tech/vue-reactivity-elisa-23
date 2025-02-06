@@ -3,8 +3,8 @@
     <div class="absolute grid grid-cols-3 grid-rows-3 w-[88%] h-[30rem] top-[18%] left-[6%] place-items-center">
       <Card v-for="card in cards" :key="card.name" :card="card"></Card>
     </div>
-    <button class="absolute bottom-[10%] left-[35%] rounded-full hover:bg-amber-200 active:bg-amber-400 h-8 w-8 font-bold font-mono text-yellow-700"><</button>
-    <button class="absolute bottom-[10%] right-[35%] rounded-full hover:bg-amber-200 active:bg-amber-400 h-8 w-8 font-bold font-mono text-yellow-700">></button>
+    <button class="absolute bottom-[10%] left-[35%] rounded-full hover:bg-amber-200 active:bg-amber-400 h-8 w-8 font-bold font-mono text-yellow-700" @click=""><</button>
+    <button class="absolute bottom-[10%] right-[35%] rounded-full hover:bg-amber-200 active:bg-amber-400 h-8 w-8 font-bold font-mono text-yellow-700" @click="">></button>
   </div>
   
 </template>
